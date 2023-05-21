@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bilgiler_frag">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background2">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="161dp"
+            android:layout_marginTop="18dp"
+             />
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="338dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="194dp"
+            android:background="@drawable/ripple2"
+>
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="302dp"
+                android:drawableRight="@drawable/baseline_person_24"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:text="Kullanıcı Adı"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kullan_ad"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="26dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="47dp"
+                android:text="Mehmet Fatih Kuru"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="110dp"
+                android:drawableRight="@drawable/baseline_vpn_key_24"
+                android:text="Şifre"
+
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kullan_sifre"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="138dp"
+                android:text="*********"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="188dp"
+                android:drawableRight="@drawable/baseline_email_24"
+                android:text="E-mail"
+
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kullan_email"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="216dp"
+                android:text="*********@****.com"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="268dp"
+
+                android:text="Telefon No"
+                android:drawableRight="@drawable/baseline_phone_android_24"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kullan_telno"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="296dp"
+                android:text="+90********"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

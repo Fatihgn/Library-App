@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="475dp">
+
+    <TextView
+        android:id="@+id/sayfaid"
+        android:layout_width="188dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="16dp"
+        android:text="248 sayfa"
+        android:textAlignment="center"
+        android:textColor="@color/kahve"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/yazarid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kitapid" />
+
+    <TextView
+        android:id="@+id/yazarid"
+        android:layout_width="198dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="9dp"
+        android:text="Robert Graves"
+        android:textAlignment="center"
+        android:textColor="@color/kahve"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sayfaid"
+        app:layout_constraintTop_toBottomOf="@+id/kitapid" />
+
+    <TextView
+        android:id="@+id/kitapid"
+        android:layout_width="328dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="46dp"
+        android:text="HOMEROS'UN KIZI"
+        android:textAlignment="center"
+        android:textColor="@color/kahve"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fotoid" />
+
+    <ImageView
+        android:id="@+id/fotoid"
+        android:layout_width="224dp"
+        android:layout_height="317dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="94dp"
+        android:src="@drawable/homerosunkizi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

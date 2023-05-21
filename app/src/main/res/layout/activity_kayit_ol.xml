@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KayitOl"
+    android:background="@drawable/background2">
+
+
+    <RelativeLayout
+        android:id="@+id/panelim2"
+        android:layout_width="297dp"
+        android:layout_height="346dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="200dp"
+>
+
+        <EditText
+            android:id="@+id/et_yenitelefon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:drawableRight="@drawable/baseline_phone_android_24"
+            android:layout_marginTop="188dp"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:hint="+90******"
+            android:inputType="phone" />
+
+        <EditText
+            android:drawableRight="@drawable/baseline_person_24"
+            android:id="@+id/et_yenikullaniciadi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:hint="Kullanıcı Adı"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_yenisifre"
+            android:drawableRight="@drawable/baseline_vpn_key_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="74dp"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:hint="Şifre"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_yenikayit"
+            android:layout_width="210dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="27dp"
+            android:text="Kayıt Ol"
+            android:background="@drawable/ripple1"
+            android:textAllCaps="false" />
+
+        <EditText
+            android:id="@+id/et_yenimail"
+            android:drawableRight="@drawable/baseline_email_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="131dp"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:hint="******@****.com"
+            android:inputType="textEmailAddress" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
